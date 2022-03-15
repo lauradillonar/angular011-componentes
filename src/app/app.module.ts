@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { AsideComponent } from './aside/aside.component';
 import { SectionComponent } from './section/section.component';
 import { ArticleComponent } from './article/article.component';
+import { HelloWorldModule } from './hello-world/hello-world.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ArticleComponent } from './article/article.component';
     ArticleComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HelloWorldModule
   ],
   providers: [],
   bootstrap: [AppComponent]
