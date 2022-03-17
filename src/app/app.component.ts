@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { UsersService } from './users.service';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +9,6 @@ export class AppComponent {
   title = 'directivas-ejemplo';
   nombre = 'Robert Rocky Balboa';
   constructor(){
-    const usersService = new UsersService();
-    console.log('%c' + usersService.getUsers() , 'background.color:red; color: yellow;');
+   
   }
 }
